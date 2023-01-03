@@ -18,6 +18,11 @@
 ### Apesar dos dados sobre corrupção a longo prazo serem muito limitados, exemplos históricos sugerem
 ### que corrupção tem sido uma persistente característica das sociedades humanas no tempo e espaço.
 
+### A antiética natureza da corrupção torna medidas particularmente complicadas. Dados sobre corrupção
+### vem de observações diretas deles (ex. registros de aplicação da lei e relatórios de auditoria),
+### ou das pesquisas de percepção (opinião pública ou avaliação de experts).
+
+###
 
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
