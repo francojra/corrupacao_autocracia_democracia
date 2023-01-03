@@ -6,6 +6,18 @@
 
 # Sobre os dados ---------------------------------------------------------------------------------------------------------------------------
 
+### Esse relatório apresenta dados e evidências empírica sobre corrupção - um importante problema
+### de custos políticos, econômicos e ambientais no mundo.
+
+### Corrupção envolve muitos diferentes aspectos, e portanto, é difícil dar uma precisa e compreensiva
+### definição. Entretanto, a maioria das definiçõs sobre corrupção é a ideia de que a corrupção
+### implica no abuso da confiança do poder para ganhos privados. Exemplos clássicos incluem suborno,
+### clientelismo e desvio de fundos. Outros exemplos, muitas vezes mais sutis e por vezes até legais 
+### de corrupção incluem o lobbying e o patrocínio.
+
+### Apesar dos dados sobre corrupção a longo prazo serem muito limitados, exemplos históricos sugerem
+### que corrupção tem sido uma persistente característica das sociedades humanas no tempo e espaço.
+
 
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
