@@ -26,3 +26,17 @@ corrup <- corrup %>%
   select(-Code) %>%
   rename(corruption = Corruption.Perception.Index...Transparency.International..2018.) %>%
   view()
+
+corrup1 <- corrup %>%
+  filter(Entity %in% c("United States", "Germany", "Japan",
+                       "China", "Cuba", "North Korea")) %>%
+  group_by(Entity) %>%
+  summarise(media = mean(corruption),
+            sd = sd(corruption), n = n(),
+            se = sd/sqrt(n)) %>%
+  view()
+
+corrup2 <- corrup %>%
+  filter(Entity %in% c("United States", "Germany", "Japan",
+                       "China", "Cuba", "North Korea")) %>%
+  view()
