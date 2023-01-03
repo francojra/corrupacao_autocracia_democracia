@@ -22,7 +22,16 @@
 ### vem de observações diretas deles (ex. registros de aplicação da lei e relatórios de auditoria),
 ### ou das pesquisas de percepção (opinião pública ou avaliação de experts).
 
-###
+### Apesar de medidas precisas sobre corrupção serem difíceis, existe uma clara correlação entre
+### percepção e conduta. Então, dados disponíveis sobre corrupção pronovem informações que 
+### avaliadas cuidadosamente, pode nos dizer algo importante sobre nossos países como bem contribuir
+### para políticas efetivas.
+
+### Por exemplo, os dados da pesquisa de percepção sugere que corrupção está relacionada a desenvolvimento
+### humano, e uma série de estudos que exploram ricos dados de registros da aplicação da lei tem mostrado
+### que educação é um importante elemento explicando essa relação. Especificamente, os dados promovem
+### suporte para a ideia que eleitores com mais educação tendem a estar mais dispostos e capazes de controlar
+### os funcionários públicos e de tomar medidas quando estes funcionários violam a lei.
 
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
