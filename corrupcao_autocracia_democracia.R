@@ -58,8 +58,8 @@ ggplot(corrup1, aes(x = fct_reorder(Entity, media),
                                "#DDCC77", "#117733",
                                "#332288", "#AA4499")) +
   scale_y_continuous(expand = expansion(mult = c(0,0))) +
-  scale_x_discrete(labels = c("Coreia do Norte", "China", "Cuba",
-                              "Estados Unidos", "Japão", "Alemanha")) +
+  scale_x_discrete(labels = c("Coreia do\n Norte", "China", "Cuba",
+                              "Estados\n Unidos", "Japão", "Alemanha")) +
   labs(x = "Países", y = "Índice de Transparência\n da Corrupção") +
   theme_ipsum(axis_title_size = 16,
               axis_text_size = 14) +
