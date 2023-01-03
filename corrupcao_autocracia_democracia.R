@@ -60,7 +60,7 @@ ggplot(corrup1, aes(x = fct_reorder(Entity, media),
   scale_y_continuous(expand = expansion(mult = c(0,0))) +
   scale_x_discrete(labels = c("Coreia do Norte", "China", "Cuba",
                               "Estados Unidos", "Japão", "Alemanha")) +
-  labs(x = "Países", y = "Índice de Percepção\n da Corrupção") +
+  labs(x = "Países", y = "Índice de Transparência\n da Corrupção") +
   theme_ipsum(axis_title_size = 16,
               axis_text_size = 14) +
   theme(legend.position = "none",
@@ -76,7 +76,7 @@ ggplot(corrup2, aes(x = Year, y = corruption,
                                labels = c("China", "Cuba", "Alemanha",
                                           "Japão", "Coreia do Norte",
                                           "Estados Unidos")) +
-  labs(x = "Tempo (anos)", y = "Índice de Percepção\n da Corrupção",
+  labs(x = "Tempo (anos)", y = "Índice de Transparência\n da Corrupção",
        color = "Países") +
   theme_ipsum(axis_title_size = 16,
               axis_text_size = 14) +
@@ -87,7 +87,7 @@ ggplot(corrup3, aes(x = Year, y = corruption,
   geom_line(size = 2) +
   scale_color_manual(values = c('#1B9E77', '#999999','#E69F00'),
                      labels = c("Brasil", "China", "Estados Unidos")) +
-  labs(x = "Tempo (anos)", y = "Índice de Percepção\n da Corrupção",
+  labs(x = "Tempo (anos)", y = "Índice de Transparência\n da Corrupção",
        color = "Países") +
   theme_light() +
   theme(axis.title = element_text(size = 18),
