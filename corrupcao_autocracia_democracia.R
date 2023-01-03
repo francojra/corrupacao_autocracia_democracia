@@ -14,3 +14,15 @@ library(hrbrthemes)
 library(ggthemes)
 library(cols4all)
 
+# Carregar dados ---------------------------------------------------------------------------------------------------------------------------
+
+corrup <- read.csv("TI-corruption-perception-index.csv")
+view(corrup)
+names(corrup)
+
+# Manipular dados --------------------------------------------------------------------------------------------------------------------------
+
+corrup <- corrup %>%
+  select(-Code) %>%
+  rename(corruption = Corruption.Perception.Index...Transparency.International..2018.) %>%
+  view()
